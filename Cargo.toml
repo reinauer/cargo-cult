@@ -1,0 +1,11 @@
+[package]
+name = "cargo-cult"
+version = "0.4.1" # April 1st edition
+edition = "2024"
+description = "The Official CLI of the Rust Evangelism Strike Force (April 1st Edition)"
+
+[[bin]]
+name = "cargo-cult"
+path = "src/main.rs"
+
+[dependencies]
